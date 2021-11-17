@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppWithBootsTRAP", "WebAppWithBootsTRAP.csproj", "{6EA8D61D-7C10-4117-9C46-52E829280505}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "..\Library\Library.csproj", "{26226644-C8EC-4A6B-99C9-EAD8E3736FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6EA8D61D-7C10-4117-9C46-52E829280505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA8D61D-7C10-4117-9C46-52E829280505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA8D61D-7C10-4117-9C46-52E829280505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26226644-C8EC-4A6B-99C9-EAD8E3736FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26226644-C8EC-4A6B-99C9-EAD8E3736FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26226644-C8EC-4A6B-99C9-EAD8E3736FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26226644-C8EC-4A6B-99C9-EAD8E3736FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
