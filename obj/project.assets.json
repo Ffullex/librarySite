@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tomanovskiyyv\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "\\\\iscsi\\profiles\\tomanovskiyyv\\Desktop\\Оптимизация 5 семестр\\neProjectWithBootstrap\\Library\\Library.csproj": {
+              "projectPath": "\\\\iscsi\\profiles\\tomanovskiyyv\\Desktop\\Оптимизация 5 семестр\\neProjectWithBootstrap\\Library\\Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
